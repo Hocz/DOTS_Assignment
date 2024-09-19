@@ -45,7 +45,7 @@ public struct PlayerMoveSpeed : IComponentData
     public float Value;
 }
 
-public struct PlayerTag :IComponentData
+public struct PlayerTag : IComponentData
 {
 
 }

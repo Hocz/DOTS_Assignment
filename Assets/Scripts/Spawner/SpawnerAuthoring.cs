@@ -18,7 +18,7 @@ public class SpawnerAuthoring : MonoBehaviour
                 Prefab = GetEntity(authoring.Prefab, TransformUsageFlags.Dynamic),
                 SpawnPosition = float2.zero,
                 NextSpawnTime = 0,
-                SpawnRate = authoring.SpawnRate
+                SpawnRate = authoring.SpawnRate,
             });
         }
     }
